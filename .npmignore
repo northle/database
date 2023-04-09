@@ -1,0 +1,9 @@
+/src
+/node_modules
+.editorconfig
+.eslintrc.json
+.gitattributes
+.gitignore
+.prettierignore
+.prettierrc.json
+tsconfig.json

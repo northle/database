@@ -1,0 +1,48 @@
+{
+  "name": "@northle/database",
+  "version": "1.0.0-alpha.0",
+  "description": "Database package of a declarative framework for Node.js",
+  "type": "module",
+  "main": "./dist/main.js",
+  "author": "Dominik Rajkowski",
+  "license": "MIT",
+  "homepage": "https://northlejs.com",
+  "repository": "github:northle/database",
+  "keywords": [
+    "backend",
+    "database",
+    "framework",
+    "nodejs",
+    "northle",
+    "northlejs",
+    "typescript"
+  ],
+  "bugs": "https://github.com/northle/core/issues",
+  "engines": {
+    "node": ">=18.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "format": "prettier \"**/*.ts\" --ignore-path ./.prettierignore --write",
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "@prisma/client": "^4.12.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/node": "^18.15.7",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.2"
+  }
+}
