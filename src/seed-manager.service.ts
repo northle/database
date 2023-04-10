@@ -1,4 +1,4 @@
-import { Constructor, inject, Service } from '@northle/core';
+import { Constructor, Service, inject } from '@northle/core';
 import { DatabaseClient } from './database-client.service.js';
 import { Seeder } from './interfaces/seeder.interface.js';
 

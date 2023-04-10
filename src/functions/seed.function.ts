@@ -1,5 +1,4 @@
-import { inject } from '../../injector/functions/inject.function.js';
-import { Constructor } from '../../utils/interfaces/constructor.interface.js';
+import { Constructor, inject } from '@northle/core';
 import { Seeder } from '../interfaces/seeder.interface.js';
 import { SeedManager } from '../seed-manager.service.js';
 
