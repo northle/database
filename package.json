@@ -30,7 +30,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "format": "prettier \"**/*.ts\" --ignore-path ./.prettierignore --write",
+    "format": "prettier \"**/*.ts\" --write",
     "lint": "eslint ."
   },
   "peerDependencies": {
