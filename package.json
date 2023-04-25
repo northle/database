@@ -1,6 +1,6 @@
 {
   "name": "@northle/database",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "The Prisma database client package of Northle.js framework",
   "type": "module",
   "main": "./dist/main.js",
