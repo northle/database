@@ -35,14 +35,14 @@
   },
   "peerDependencies": {
     "@northle/core": "*",
-    "@prisma/client": "^4.13.0"
+    "@prisma/client": "^4.14.1"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
-    "@types/node": "^18.16.0",
-    "@typescript-eslint/eslint-plugin": "^5.59.1",
-    "@typescript-eslint/parser": "^5.59.1",
-    "eslint": "^8.39.0",
+    "@types/node": "^20.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4"
   },
